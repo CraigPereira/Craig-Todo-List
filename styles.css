@@ -1,5 +1,10 @@
 body {
-	background: #352f5b;
+	/* background: #352f5b; */
+	/* border: 2px solid black; */
+  padding: 25px;
+  background: url('sky1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
 	max-width: 400px;
@@ -12,7 +17,8 @@ input[type=text]:focus{
 	max-width: 400px;
 }
 .todos li{
-	background: #423e6f;
+	/* background: #423e6f; */
+	background: rgba(0, 0, 0, 0.2);
 }
 .delete{
 	cursor:	pointer;
